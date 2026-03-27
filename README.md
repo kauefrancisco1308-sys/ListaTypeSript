@@ -1,2 +1,2 @@
 # ListaTypeSript
-Lista 2 DS
+Lista do 2ºDS para treino de TypeScript 
