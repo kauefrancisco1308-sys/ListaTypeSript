@@ -22,7 +22,7 @@ document.getElementById('q3rep')?.addEventListener('click', q3rep);
 document.getElementById('q2rep')?.addEventListener('click', q2rep);
 document.getElementById('q1rep')?.addEventListener('click', q1rep);
 
-// 
+//funções
 import { q1fun } from './funções/q1fun';
 import { q2fun } from './funções/q2fun';
 
