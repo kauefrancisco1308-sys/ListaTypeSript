@@ -12,7 +12,7 @@
 // Se status_alerta for False, imprime "Temperatura dentro da faixa normal.".
 export function q2fun(): void {
 
-    /*function ler_temperatura() {
+    function ler_temperatura() {
         let temperatura = Number(prompt("Digite a temperatura atual:"));
         return temperatura;
     }
@@ -32,5 +32,5 @@ export function q2fun(): void {
     }
     let temp = ler_temperatura();
     let alerta = verificar_alerta_temperatura(temp);
-    emitir_mensagem_alerta(alerta);*/
+    emitir_mensagem_alerta(alerta);
 }
