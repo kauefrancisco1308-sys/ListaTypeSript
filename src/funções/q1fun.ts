@@ -3,7 +3,7 @@
 // de 1 até o número fornecido. (Ex: somarAte(4) deve retornar 10, pois 1+2+3+4 = 10).
 export function q1fun(): void {
 
-    function somarAte(x) {
+    function somarAte(x:number) {
         let soma = 0;
         for (let i = 1; i <= x; i++) {
             soma += i;

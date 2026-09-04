@@ -28,3 +28,14 @@ import { q2fun } from './funções/q2fun';
 
 document.getElementById('q1fun')?.addEventListener('click', q1fun);
 document.getElementById('q2fun')?.addEventListener('click', q2fun);
+
+//POO
+import { q1poo } from './poo/q1poo';
+import { q2poo } from './poo/q2poo';
+import { q3poo } from './poo/q3poo';
+import { q4poo } from './poo/q4poo';
+
+document.getElementById('q1poo')?.addEventListener('click',q1poo)
+document.getElementById('q2poo')?.addEventListener('click',q2poo)
+document.getElementById('q3poo')?.addEventListener('click',q3poo)
+document.getElementById('q4poo')?.addEventListener('click',q4poo)
