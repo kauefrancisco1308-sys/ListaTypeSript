@@ -14,25 +14,27 @@ exports.q2fun = q2fun;
 // Se status_alerta for True, imprime "ALERTA: Temperatura fora da faixa ideal!".
 // Se status_alerta for False, imprime "Temperatura dentro da faixa normal.".
 function q2fun() {
-    /*function ler_temperatura() {
+    function ler_temperatura() {
         let temperatura = Number(prompt("Digite a temperatura atual:"));
         return temperatura;
     }
     function verificar_alerta_temperatura(temperatura) {
         if (temperatura < 10 || temperatura > 30) {
             return true;
-        } else {
+        }
+        else {
             return false;
         }
     }
     function emitir_mensagem_alerta(status_alerta) {
         if (status_alerta) {
             console.log("ALERTA: Temperatura fora da faixa ideal!");
-        } else {
+        }
+        else {
             console.log("Temperatura dentro da faixa normal.");
         }
     }
     let temp = ler_temperatura();
     let alerta = verificar_alerta_temperatura(temp);
-    emitir_mensagem_alerta(alerta);*/
+    emitir_mensagem_alerta(alerta);
 }

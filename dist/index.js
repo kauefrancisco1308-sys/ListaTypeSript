@@ -1,6 +1,6 @@
 "use strict";
 //condicionais
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0;
 Object.defineProperty(exports, "__esModule", { value: true });
 const q1cond_1 = require("./condicionais/q1cond");
 const q2cond_1 = require("./condicionais/q2cond");
@@ -19,8 +19,39 @@ const q4rep_1 = require("./repeti\u00E7\u00E3o/q4rep");
 (_f = document.getElementById('q3rep')) === null || _f === void 0 ? void 0 : _f.addEventListener('click', q3rep_1.q3rep);
 (_g = document.getElementById('q2rep')) === null || _g === void 0 ? void 0 : _g.addEventListener('click', q2rep_1.q2rep);
 (_h = document.getElementById('q1rep')) === null || _h === void 0 ? void 0 : _h.addEventListener('click', q1rep_1.q1rep);
-// 
+//funções
 const q1fun_1 = require("./fun\u00E7\u00F5es/q1fun");
 const q2fun_1 = require("./fun\u00E7\u00F5es/q2fun");
 (_j = document.getElementById('q1fun')) === null || _j === void 0 ? void 0 : _j.addEventListener('click', q1fun_1.q1fun);
 (_k = document.getElementById('q2fun')) === null || _k === void 0 ? void 0 : _k.addEventListener('click', q2fun_1.q2fun);
+//POO
+const q1poo_1 = require("./poo/q1poo");
+const q2poo_1 = require("./poo/q2poo");
+const q3poo_1 = require("./poo/q3poo");
+const q4poo_1 = require("./poo/q4poo");
+const q5poo_1 = require("./poo/q5poo");
+const q6poo_1 = require("./poo/q6poo");
+const q7poo_1 = require("./poo/q7poo");
+const q8poo_1 = require("./poo/q8poo");
+const q9poo_1 = require("./poo/q9poo");
+const q10poo_1 = require("./poo/q10poo");
+const q11poo_1 = require("./poo/q11poo");
+const q12poo_1 = require("./poo/q12poo");
+const q13poo_1 = require("./poo/q13poo");
+const q14poo_1 = require("./poo/q14poo");
+const q15poo_1 = require("./poo/q15poo");
+(_l = document.getElementById('q1poo')) === null || _l === void 0 ? void 0 : _l.addEventListener('click', q1poo_1.q1poo);
+(_m = document.getElementById('q2poo')) === null || _m === void 0 ? void 0 : _m.addEventListener('click', q2poo_1.q2poo);
+(_o = document.getElementById('q3poo')) === null || _o === void 0 ? void 0 : _o.addEventListener('click', q3poo_1.q3poo);
+(_p = document.getElementById('q4poo')) === null || _p === void 0 ? void 0 : _p.addEventListener('click', q4poo_1.q4poo);
+(_q = document.getElementById('q5poo')) === null || _q === void 0 ? void 0 : _q.addEventListener('click', q5poo_1.q5poo);
+(_r = document.getElementById('q6poo')) === null || _r === void 0 ? void 0 : _r.addEventListener('click', q6poo_1.q6poo);
+(_s = document.getElementById('q7poo')) === null || _s === void 0 ? void 0 : _s.addEventListener('click', q7poo_1.q7poo);
+(_t = document.getElementById('q8poo')) === null || _t === void 0 ? void 0 : _t.addEventListener('click', q8poo_1.q8poo);
+(_u = document.getElementById('q9poo')) === null || _u === void 0 ? void 0 : _u.addEventListener('click', q9poo_1.q9poo);
+(_v = document.getElementById('q10poo')) === null || _v === void 0 ? void 0 : _v.addEventListener('click', q10poo_1.q10poo);
+(_w = document.getElementById('q11poo')) === null || _w === void 0 ? void 0 : _w.addEventListener('click', q11poo_1.q11poo);
+(_x = document.getElementById('q12poo')) === null || _x === void 0 ? void 0 : _x.addEventListener('click', q12poo_1.q12poo);
+(_y = document.getElementById('q13poo')) === null || _y === void 0 ? void 0 : _y.addEventListener('click', q13poo_1.q13poo);
+(_z = document.getElementById('q14poo')) === null || _z === void 0 ? void 0 : _z.addEventListener('click', q14poo_1.q14poo);
+(_0 = document.getElementById('q15poo')) === null || _0 === void 0 ? void 0 : _0.addEventListener('click', q15poo_1.q15poo);

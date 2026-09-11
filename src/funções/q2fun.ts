@@ -16,14 +16,14 @@ export function q2fun(): void {
         let temperatura = Number(prompt("Digite a temperatura atual:"));
         return temperatura;
     }
-    function verificar_alerta_temperatura(temperatura) {
+    function verificar_alerta_temperatura(temperatura:number) {
         if (temperatura < 10 || temperatura > 30) {
             return true;
         } else {
             return false;
         }
     }
-    function emitir_mensagem_alerta(status_alerta) {
+    function emitir_mensagem_alerta(status_alerta:boolean) {
         if (status_alerta) {
             console.log("ALERTA: Temperatura fora da faixa ideal!");
         } else {
