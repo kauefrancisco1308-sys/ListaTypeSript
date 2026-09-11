@@ -12,7 +12,7 @@ export function q10poo(): void{
         fome: number
         saude: number
         idade: number
-        constructor(nome: string, fome: number, saude: number, idade: number) {
+        constructor(nome:string, fome:number, saude:number, idade:number) {
             this.nome = nome
             this.fome = fome
             this.saude = saude

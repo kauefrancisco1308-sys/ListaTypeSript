@@ -5,6 +5,7 @@ exports.q1poo = q1poo;
 //  Atributos: Cor, circunferência, material
 //  Métodos: trocaCor e mostraCor
 function q1poo() {
+    var _a;
     class Bola {
         constructor(cor, circunferencia, material) {
             this.cor = cor;
@@ -18,8 +19,23 @@ function q1poo() {
             console.log("A cor da bola é: " + this.cor);
         }
     }
-    let bola = new Bola("vermelha", 34, "metal");
+    let cor = String(prompt("informe a cor da bola: "));
+    let circun = Number(prompt("informe a circunferencia: "));
+    let material = String(prompt("informe o material"));
+    let bola = new Bola(cor, circun, material);
     bola.mostraCor;
-    bola.trocarCor("verde");
-    bola.mostraCor;
+    let trocar = String((_a = prompt("deseja trocar a cor? S/N")) === null || _a === void 0 ? void 0 : _a.toUpperCase);
+    while (true) {
+        if (trocar === "S") {
+            let NovaCor = String(prompt("informe a nova cor"));
+            bola.trocarCor(NovaCor);
+            bola.mostraCor;
+        }
+        else if (trocar === "N") {
+            break;
+        }
+        else {
+            alert("algo deu errado! tente novamente!");
+        }
+    }
 }
