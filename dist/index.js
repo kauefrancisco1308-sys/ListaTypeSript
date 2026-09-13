@@ -1,6 +1,6 @@
 "use strict";
 //condicionais
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5;
 Object.defineProperty(exports, "__esModule", { value: true });
 const q1cond_1 = require("./condicionais/q1cond");
 const q2cond_1 = require("./condicionais/q2cond");
@@ -40,6 +40,11 @@ const q12poo_1 = require("./poo/q12poo");
 const q13poo_1 = require("./poo/q13poo");
 const q14poo_1 = require("./poo/q14poo");
 const q15poo_1 = require("./poo/q15poo");
+const q16poo_1 = require("./poo/q16poo");
+const q17poo_1 = require("./poo/q17poo");
+const q18poo_1 = require("./poo/q18poo");
+const q19poo_1 = require("./poo/q19poo");
+const q20poo_1 = require("./poo/q20poo");
 (_l = document.getElementById('q1poo')) === null || _l === void 0 ? void 0 : _l.addEventListener('click', q1poo_1.q1poo);
 (_m = document.getElementById('q2poo')) === null || _m === void 0 ? void 0 : _m.addEventListener('click', q2poo_1.q2poo);
 (_o = document.getElementById('q3poo')) === null || _o === void 0 ? void 0 : _o.addEventListener('click', q3poo_1.q3poo);
@@ -55,3 +60,8 @@ const q15poo_1 = require("./poo/q15poo");
 (_y = document.getElementById('q13poo')) === null || _y === void 0 ? void 0 : _y.addEventListener('click', q13poo_1.q13poo);
 (_z = document.getElementById('q14poo')) === null || _z === void 0 ? void 0 : _z.addEventListener('click', q14poo_1.q14poo);
 (_0 = document.getElementById('q15poo')) === null || _0 === void 0 ? void 0 : _0.addEventListener('click', q15poo_1.q15poo);
+(_1 = document.getElementById('q16poo')) === null || _1 === void 0 ? void 0 : _1.addEventListener('click', q16poo_1.q16poo);
+(_2 = document.getElementById('q17poo')) === null || _2 === void 0 ? void 0 : _2.addEventListener('click', q17poo_1.q17poo);
+(_3 = document.getElementById('q18poo')) === null || _3 === void 0 ? void 0 : _3.addEventListener('click', q18poo_1.q18poo);
+(_4 = document.getElementById('q19poo')) === null || _4 === void 0 ? void 0 : _4.addEventListener('click', q19poo_1.q19poo);
+(_5 = document.getElementById('q20poo')) === null || _5 === void 0 ? void 0 : _5.addEventListener('click', q20poo_1.q20poo);

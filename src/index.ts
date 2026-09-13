@@ -45,6 +45,11 @@ import { q12poo } from './poo/q12poo';
 import { q13poo } from './poo/q13poo';
 import { q14poo } from './poo/q14poo';
 import { q15poo } from './poo/q15poo';
+import { q16poo } from './poo/q16poo';
+import { q17poo } from './poo/q17poo';
+import { q18poo } from './poo/q18poo';
+import { q19poo } from './poo/q19poo';
+import { q20poo } from './poo/q20poo';
 
 document.getElementById('q1poo')?.addEventListener('click',q1poo)
 document.getElementById('q2poo')?.addEventListener('click',q2poo)
@@ -61,3 +66,8 @@ document.getElementById('q12poo')?.addEventListener('click',q12poo)
 document.getElementById('q13poo')?.addEventListener('click',q13poo)
 document.getElementById('q14poo')?.addEventListener('click',q14poo)
 document.getElementById('q15poo')?.addEventListener('click',q15poo)
+document.getElementById('q16poo')?.addEventListener('click',q16poo)
+document.getElementById('q17poo')?.addEventListener('click',q17poo)
+document.getElementById('q18poo')?.addEventListener('click',q18poo)
+document.getElementById('q19poo')?.addEventListener('click',q19poo)
+document.getElementById('q20poo')?.addEventListener('click',q20poo)
