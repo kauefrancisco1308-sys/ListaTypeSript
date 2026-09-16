@@ -1,6 +1,6 @@
 "use strict";
 //condicionais
-var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5;
+var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u, _v, _w, _x, _y, _z, _0, _1, _2, _3, _4, _5, _6;
 Object.defineProperty(exports, "__esModule", { value: true });
 const q1cond_1 = require("./condicionais/q1cond");
 const q2cond_1 = require("./condicionais/q2cond");
@@ -45,6 +45,7 @@ const q17poo_1 = require("./poo/q17poo");
 const q18poo_1 = require("./poo/q18poo");
 const q19poo_1 = require("./poo/q19poo");
 const q20poo_1 = require("./poo/q20poo");
+const q21poo_1 = require("./poo/q21poo");
 (_l = document.getElementById('q1poo')) === null || _l === void 0 ? void 0 : _l.addEventListener('click', q1poo_1.q1poo);
 (_m = document.getElementById('q2poo')) === null || _m === void 0 ? void 0 : _m.addEventListener('click', q2poo_1.q2poo);
 (_o = document.getElementById('q3poo')) === null || _o === void 0 ? void 0 : _o.addEventListener('click', q3poo_1.q3poo);
@@ -65,3 +66,4 @@ const q20poo_1 = require("./poo/q20poo");
 (_3 = document.getElementById('q18poo')) === null || _3 === void 0 ? void 0 : _3.addEventListener('click', q18poo_1.q18poo);
 (_4 = document.getElementById('q19poo')) === null || _4 === void 0 ? void 0 : _4.addEventListener('click', q19poo_1.q19poo);
 (_5 = document.getElementById('q20poo')) === null || _5 === void 0 ? void 0 : _5.addEventListener('click', q20poo_1.q20poo);
+(_6 = document.getElementById('q21poo')) === null || _6 === void 0 ? void 0 : _6.addEventListener('click', q21poo_1.q21poo);

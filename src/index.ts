@@ -50,6 +50,7 @@ import { q17poo } from './poo/q17poo';
 import { q18poo } from './poo/q18poo';
 import { q19poo } from './poo/q19poo';
 import { q20poo } from './poo/q20poo';
+import { q21poo } from './poo/q21poo';
 
 document.getElementById('q1poo')?.addEventListener('click',q1poo)
 document.getElementById('q2poo')?.addEventListener('click',q2poo)
@@ -71,3 +72,4 @@ document.getElementById('q17poo')?.addEventListener('click',q17poo)
 document.getElementById('q18poo')?.addEventListener('click',q18poo)
 document.getElementById('q19poo')?.addEventListener('click',q19poo)
 document.getElementById('q20poo')?.addEventListener('click',q20poo)
+document.getElementById('q21poo')?.addEventListener('click',q21poo)
