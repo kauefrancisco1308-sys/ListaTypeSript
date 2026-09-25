@@ -1,10 +1,7 @@
-"use strict";
 // Crie um programa que peça números até o usuário digitar 0 e mostre:
 // Quantidade de números digitados
 // Soma total
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q1rep = q1rep;
-function q1rep() {
+export function q1rep() {
     let quantidade = 0;
     let soma = 0;
     while (true) {

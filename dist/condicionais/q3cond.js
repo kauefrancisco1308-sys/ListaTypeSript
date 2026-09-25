@@ -1,13 +1,10 @@
-"use strict";
 // Crie um programa que solicite dois números e simule um menu de uma calculadora:
 // 1 - Soma
 // 2 - Subtração
 // 3 - Multiplicação
 // 4 - Divisão
 // Use switch...Case
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q3condi = q3condi;
-function q3condi() {
+export function q3condi() {
     let num1 = Number(prompt("Digite o primeiro número:"));
     let num2 = Number(prompt("Digite o segundo número:"));
     let operacao = Number(prompt("Escolha a operação: 1 - Soma, 2 - Subtração, 3 - Multiplicação, 4 - Divisão"));

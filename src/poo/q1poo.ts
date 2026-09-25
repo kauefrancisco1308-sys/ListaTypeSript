@@ -14,7 +14,7 @@ export function q1poo(): void {
         trocarCor(novaCor:string){
             this.cor=novaCor
         }
-        mostraCor(mostracor:string){
+        mostraCor(){
             console.log("A cor da bola é: "+this.cor)
         }
     }
@@ -22,18 +22,24 @@ export function q1poo(): void {
     let circun = Number(prompt("informe a circunferencia: "))
     let material= String(prompt("informe o material"))
     let bola = new Bola(cor, circun, material)
-    bola.mostraCor
-    let trocar = String(prompt("deseja trocar a cor? S/N")?.toUpperCase)
+    bola.mostraCor()
+    let trocar
     while(true){
+        trocar = String(prompt("deseja trocar a cor? S/N")?.toUpperCase())
         if (trocar==="S"){
             let NovaCor = String(prompt("informe a nova cor"))
             bola.trocarCor(NovaCor)
-            bola.mostraCor
+            bola.mostraCor()
+            trocar = String(prompt("deseja trocar a cor? S/N")?.toUpperCase())
+            if(trocar==="N"){
+            break
+            }
         }else if(trocar==="N"){
             break
         }else{
             alert("algo deu errado! tente novamente!")
         }
+        
     }
     
 }

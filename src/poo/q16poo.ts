@@ -44,6 +44,8 @@ class Ave extends Animal {
     }
 }
 while (true) {
+    let mamiferos: Mamifero[] = []
+    let aves: Ave[] = []
     let opcao = prompt("Digite 1 para Mamífero, 2 para Ave, 3 listar Mamíferos, 4 listar Aves, 5 simular hora da alimentação, 0 para sair:")
     if (opcao === "0") {
         break
@@ -54,6 +56,8 @@ while (true) {
         let sexo = String(prompt("Digite o sexo do mamífero:"))
         let tipoAlimentacao = String(prompt("Digite o tipo de alimentação do mamífero:"))
         let mamifero = new Mamifero(nome, especie, idade, sexo, tipoAlimentacao)
+
+        mamiferos.push(mamifero)
         console.log("Mamífero cadastrado com sucesso!")
     } else if (opcao === "2") {
         let nome = String(prompt("Digite o nome da ave:"))
@@ -62,13 +66,28 @@ while (true) {
         let sexo = String(prompt("Digite o sexo da ave:"))
         let migratoria = String(prompt("A ave é migratória? (s/n):")) === "s"
         let ave = new Ave(nome, especie, idade, sexo, migratoria)
+        aves.push(ave)
         console.log("Ave cadastrada com sucesso!")
     } else if (opcao === "3") {
         console.log("Listando Mamíferos:")
+        for (let i = 0; i < mamiferos.length; i++) {
+            mamiferos[i].emitirSom()
+            mamiferos[i].mover()
+        }
     } else if (opcao === "4") {
         console.log("Listando Aves:")
+        for (let i = 0; i < aves.length; i++) {
+            aves[i].emitirSom()
+            aves[i].mover()
+        }
     } else if (opcao === "5") {
         console.log("Simulando hora da alimentação:")
+        for (let i = 0; i < mamiferos.length; i++) {
+            mamiferos[i].emitirSom()
+        }
+        for (let i = 0; i < aves.length; i++) {
+            aves[i].emitirSom()
+        }
     }  
 }
 }

@@ -30,9 +30,9 @@ export function q3poo(): void {
         }
     }
     let retangulo = new Retangulo(36,6)
-    retangulo.mostrarValores
+    retangulo.mostrarValores()
     retangulo.mudarBase(64)
     retangulo.mudaraltura(8)
-    retangulo.perimetro
-    retangulo.area
+    retangulo.perimetro()
+    retangulo.area()
 }

@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q3poo = q3poo;
 // Classe Retângulo: Crie uma classe que modele um retângulo:
 // A. Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
 // B. Métodos:
@@ -8,7 +5,7 @@ exports.q3poo = q3poo;
 //  Retornar/apresentar valor dos lados,
 //  Calcular Área,
 //  Calcular Perímetro.
-function q3poo() {
+export function q3poo() {
     class Retangulo {
         constructor(base, altura) {
             this.base = base;
@@ -31,9 +28,9 @@ function q3poo() {
         }
     }
     let retangulo = new Retangulo(36, 6);
-    retangulo.mostrarValores;
+    retangulo.mostrarValores();
     retangulo.mudarBase(64);
     retangulo.mudaraltura(8);
-    retangulo.perimetro;
-    retangulo.area;
+    retangulo.perimetro();
+    retangulo.area();
 }

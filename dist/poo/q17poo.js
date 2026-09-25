@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q17poo = q17poo;
 // Controle de Frequência do Refeitório do IFS
 // O Refeitório do IFS deseja controlar o acesso de seus usuários. Todo usuário possui um identificador 
 // numérico interno e o nome completo. Os usuários dividem-se em Alunos (que possuem o curso) e Servidores 
@@ -9,7 +6,7 @@ exports.q17poo = q17poo;
 // Ao digitar um comando de encerramento, o programa exibe a listagem de quem almoçou no dia, mostrando mensagens 
 // personalizadas para cada tipo de usuário através de um método comum de identificação, além de exibir a quantidade 
 // total de acessos de alunos e servidores.
-function q17poo() {
+export function q17poo() {
     class Usuario {
         constructor(id, nome) {
             this.id = id;

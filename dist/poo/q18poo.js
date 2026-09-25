@@ -1,12 +1,9 @@
-"use strict";
 // Folha de Pagamento Unificada do IFS
 // O setor de Recursos Humanos do IFS necessita de um novo software para gerenciar e calcular a folha salarial mensal 
 // de seus colaboradores. Sabe-se que todos os colaboradores do instituto possuem características fundamentais em comum: 
 // um nome, uma matrícula e um salário base. Por questões de segurança, esses três dados não podem ser acessados diretamente 
 // de fora da classe, exigindo métodos públicos específicos para sua leitura e modificação. Além disso, a classe base deve 
 // conter um método para calcular o salário, que por padrão retorna apenas o valor do salário base.
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q18poo = q18poo;
 // No entanto, o IFS possui três categorias distintas de funcionários, que herdam as características
 // da classe base, mas possuem regras próprias para o cálculo da remuneração final. A primeira categoria 
 // é a de Professor, que possui como atributo privado o seu regime de trabalho (por exemplo, "DE" para Dedicação Exclusiva); 
@@ -22,7 +19,7 @@ exports.q18poo = q18poo;
 // e acompanhar os custos parciais de cada categoria. Por fim, quando o usuário optar por encerrar o cadastro, o laço deve ser interrompido e o 
 // software exibirá um relatório final contendo o custo total gasto com os professores, o custo total com os técnicos administrativos, o custo 
 // total com os diretores e, por último, o custo total geral que a instituição terá com a folha de pagamento daquele mês.
-function q18poo() {
+export function q18poo() {
     class Funcionario {
         constructor(nome, matricula, salarioBase) {
             this.nome = nome;

@@ -1,9 +1,9 @@
 //condicionais
 
-import { q1condi } from './condicionais/q1cond';
-import { q2condi } from './condicionais/q2cond';
-import { q3condi } from './condicionais/q3cond';
-import { q4condi } from './condicionais/q4cond';
+import { q1condi } from './condicionais/q1cond.js';
+import { q2condi } from './condicionais/q2cond.js';
+import { q3condi } from './condicionais/q3cond.js';
+import { q4condi } from './condicionais/q4cond.js';
 
 document.getElementById('q4cond')?.addEventListener('click', q4condi);
 document.getElementById('q3cond')?.addEventListener('click', q3condi);
@@ -12,10 +12,10 @@ document.getElementById('q1cond')?.addEventListener('click', q1condi);
 
 //repetição
 
-import { q1rep } from './repetição/q1rep';
-import { q2rep } from './repetição/q2rep';
-import { q3rep } from './repetição/q3rep';
-import { q4rep } from './repetição/q4rep';
+import { q1rep } from './repetição/q1rep.js';
+import { q2rep } from './repetição/q2rep.js';
+import { q3rep } from './repetição/q3rep.js';
+import { q4rep } from './repetição/q4rep.js';
 
 document.getElementById('q4rep')?.addEventListener('click', q4rep); 
 document.getElementById('q3rep')?.addEventListener('click', q3rep);
@@ -23,34 +23,35 @@ document.getElementById('q2rep')?.addEventListener('click', q2rep);
 document.getElementById('q1rep')?.addEventListener('click', q1rep);
 
 //funções
-import { q1fun } from './funções/q1fun';
-import { q2fun } from './funções/q2fun';
+import { q1fun } from './funções/q1fun.js';
+import { q2fun } from './funções/q2fun.js';
 
 document.getElementById('q1fun')?.addEventListener('click', q1fun);
 document.getElementById('q2fun')?.addEventListener('click', q2fun);
 
 //POO
-import { q1poo } from './poo/q1poo';
-import { q2poo } from './poo/q2poo';
-import { q3poo } from './poo/q3poo';
-import { q4poo } from './poo/q4poo';
-import { q5poo } from './poo/q5poo';
-import { q6poo } from './poo/q6poo';
-import { q7poo } from './poo/q7poo';
-import { q8poo } from './poo/q8poo';
-import { q9poo } from './poo/q9poo';
-import { q10poo } from './poo/q10poo';
-import { q11poo } from './poo/q11poo';
-import { q12poo } from './poo/q12poo';
-import { q13poo } from './poo/q13poo';
-import { q14poo } from './poo/q14poo';
-import { q15poo } from './poo/q15poo';
-import { q16poo } from './poo/q16poo';
-import { q17poo } from './poo/q17poo';
-import { q18poo } from './poo/q18poo';
-import { q19poo } from './poo/q19poo';
-import { q20poo } from './poo/q20poo';
-import { q21poo } from './poo/q21poo';
+import { q1poo } from './poo/q1poo.js';
+import { q2poo } from './poo/q2poo.js';
+import { q3poo } from './poo/q3poo.js';
+import { q4poo } from './poo/q4poo.js';
+import { q5poo } from './poo/q5poo.js';
+import { q6poo } from './poo/q6poo.js';
+import { q7poo } from './poo/q7poo.js';
+import { q8poo } from './poo/q8poo.js';
+import { q9poo } from './poo/q9poo.js';
+import { q10poo } from './poo/q10poo.js';
+import { q11poo } from './poo/q11poo.js';
+import { q12poo } from './poo/q12poo.js';
+import { q13poo } from './poo/q13poo.js';
+import { q14poo } from './poo/q14poo.js';
+import { q15poo } from './poo/q15poo.js';
+import { q16poo } from './poo/q16poo.js';
+import { q17poo } from './poo/q17poo.js';
+import { q18poo } from './poo/q18poo.js';
+import { q19poo } from './poo/q19poo.js';
+import { q20poo } from './poo/q20poo.js';
+import { q21poo } from './poo/q21poo.js';
+import { q22poo } from './poo/q22poo.js';
 
 document.getElementById('q1poo')?.addEventListener('click',q1poo)
 document.getElementById('q2poo')?.addEventListener('click',q2poo)
@@ -73,3 +74,4 @@ document.getElementById('q18poo')?.addEventListener('click',q18poo)
 document.getElementById('q19poo')?.addEventListener('click',q19poo)
 document.getElementById('q20poo')?.addEventListener('click',q20poo)
 document.getElementById('q21poo')?.addEventListener('click',q21poo)
+document.getElementById('q22poo')?.addEventListener('click',q22poo)

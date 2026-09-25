@@ -1,9 +1,6 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q11poo = q11poo;
 // Uma lanchonete quer registrar pedidos dos clientes. O sistema deve solicitar o nome do cliente, 
 // o nome do pedido e o valor. Crie um método que exiba o resumo do pedido e o valor total.
-function q11poo() {
+export function q11poo() {
     class Pedido {
         constructor(nomeCliente, nomePedido, valor) {
             this.nomeCliente = nomeCliente;

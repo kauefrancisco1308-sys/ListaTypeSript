@@ -1,10 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q4rep = q4rep;
 // Faça um programa que leia um conjunto de números (X) e imprima a quantidade de
 // números pares (QPares) e a quantidade de números ímpares (QImpares) lidos.
 // Admita que o valor -1 é utilizado como sentinela para fim de leitura.
-function q4rep() {
+export function q4rep() {
     let QPares = 0;
     let QImpares = 0;
     while (true) {

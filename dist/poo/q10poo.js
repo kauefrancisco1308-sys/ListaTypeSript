@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q10poo = q10poo;
 // Classe Bichinho Virtual: Crie uma classe que modele um Tamagushi (Bichinho Eletrônico):
 // A. Atributos: Nome, Fome, Saúde e Idade 
 // B. Métodos: Alterar Nome, Fome, Saúde e Idade; 
@@ -9,7 +6,7 @@ exports.q10poo = q10poo;
 // este humor é uma combinação entre os atributos Fome e Saúde, ou seja, um campo calculado, então 
 // não devemos criar um atributo para armazenar esta informação por que ela pode ser calculada a 
 // qualquer momento.
-function q10poo() {
+export function q10poo() {
     class Tamagushi {
         constructor(nome, fome, saude, idade) {
             this.nome = nome;

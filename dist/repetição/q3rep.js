@@ -1,12 +1,9 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q3rep = q3rep;
 // Faça um programa que leia nome, horas trabalhadas, salário-hora e sexo de um grupo de operários. Ao final de cada solicitação pergunte se o usuário quer continuar ou não o programa.
 // Calcule e imprima: 
 // Salário total dos funcionários, o maior salário, juntamente com o nome de quem o recebeu; 
 // O número de funcionários do sexo masculino e feminino cadastrado; 
 // O percentual de funcionários homens e mulheres cadastrados.
-function q3rep() {
+export function q3rep() {
     let salarioTotal = 0;
     let maiorSalario = 0;
     let nomeMaiorSalario = "";

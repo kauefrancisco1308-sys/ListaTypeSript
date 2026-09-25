@@ -1,6 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q2fun = q2fun;
 // O IF tem uma estufa e o professor de biologia quer um sistema simples para monitorar a temperatura.
 // Crie uma função ler_temperatura():
 // Simula a leitura de um sensor, pedindo ao usuário para digitar uma temperatura (valor inteiro ou float).
@@ -13,7 +10,7 @@ exports.q2fun = q2fun;
 // Recebe o status_alerta (True ou False).
 // Se status_alerta for True, imprime "ALERTA: Temperatura fora da faixa ideal!".
 // Se status_alerta for False, imprime "Temperatura dentro da faixa normal.".
-function q2fun() {
+export function q2fun() {
     function ler_temperatura() {
         let temperatura = Number(prompt("Digite a temperatura atual:"));
         return temperatura;

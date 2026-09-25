@@ -30,8 +30,8 @@ export function q4poo(): void {
     let altura =Number(prompt("informe a largura: "))
     let base = Number(prompt("informe o comprimento: "))
     let Local = new Retangulo (altura,base)
-    console.log(`a quntidade de pissos necesarios é: ${Local.area}`)
-    console.log(`Sera necesario ${Local.perimetro} metros de roda pé`)
+    console.log("a quntidade de pissos necesarios é:"+Local.area)
+    console.log("Sera necesario "+Local.perimetro+" metros de roda pé")
     
     
 

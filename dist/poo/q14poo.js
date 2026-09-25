@@ -1,11 +1,8 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.q14poo = q14poo;
 // Uma biblioteca precisa catalogar seus livros. Crie uma classe Livro com título, autor, 
 // ano de publicação e disponibilidade (boolean). O programa deve permitir cadastrar até 15 
 // livros via teclado, listar todos os disponíveis e registrar o empréstimo de um livro 
 // pesquisado pelo título
-function q14poo() {
+export function q14poo() {
     class Livro {
         constructor(titulo, autor, anoPublicacao, disponivel) {
             this.titulo = titulo;

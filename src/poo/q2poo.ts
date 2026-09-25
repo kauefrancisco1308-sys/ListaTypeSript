@@ -19,8 +19,8 @@ export function q2poo(): void {
             console.log("a Área do quadrado é: "+(a**2))
         }
     }
-    let quadrado = new Quadrado(12)
-    quadrado.calcularArea
-    quadrado.mudar_lado(21)
-    quadrado.valor_lado
+    let quadrado = new Quadrado(Number(prompt("informe o tamanho do lado do quadrado: ")))
+    quadrado.calcularArea()
+    quadrado.mudar_lado(Number(prompt("informe o novo tamanho do lado do quadrado: ")))
+    quadrado.valor_lado()
 }
